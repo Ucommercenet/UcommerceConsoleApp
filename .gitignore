@@ -1,0 +1,9 @@
+/src/packages/FluentNHibernate.2.1.2/.signature.p7s
+/src/packages/*
+/src/RunningUCommerce/bin*
+/.idea.RunningUCommerce/.idea/workspace.xml
+/src/.idea*
+*.user
+*.cache
+*obj*
+*.suo*
