@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Ucommerce.Infrastructure;
+using Ucommerce.Search.Indexers;
 
 namespace RunningUCommerce
 {
@@ -10,7 +12,7 @@ namespace RunningUCommerce
     {
         static void Main(string[] args)
         {
-            var products = Ucommerce.EntitiesV2.Product.All().ToList();
+            ObjectFactory.Instance.Resolve<IScratchIndexer>().Index();
         }
     }
 }

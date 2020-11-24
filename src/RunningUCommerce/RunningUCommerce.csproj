@@ -69,11 +69,37 @@
     <Reference Include="Iesi.Collections, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <HintPath>..\packages\Iesi.Collections.4.0.4\lib\net461\Iesi.Collections.dll</HintPath>
     </Reference>
-    <Reference Include="Infralution.Licensing, Version=4.7.1.0, Culture=neutral, PublicKeyToken=3e7e8e3744a5c13f, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.9.0.0.20106\lib\net45\Infralution.Licensing.dll</HintPath>
+    <Reference Include="Infralution.Licensing, Version=4.7.1.0, Culture=neutral, PublicKeyToken=3e7e8e3744a5c13f">
+      <HintPath>..\packages\uCommerce.9.3.1.20275\lib\net45\Infralution.Licensing.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="J2N, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f39447d697a969af, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.9.0.0.20106\lib\net45\J2N.dll</HintPath>
+    <Reference Include="J2N, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f39447d697a969af">
+      <HintPath>..\packages\uCommerce.9.3.1.20275\lib\net45\J2N.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Lucene.Net">
+      <HintPath>ucommerce\Apps\bin\Lucene.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucene.Net.Analysis.Common">
+      <HintPath>ucommerce\Apps\bin\Lucene.Net.Analysis.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucene.Net.Facet">
+      <HintPath>ucommerce\Apps\bin\Lucene.Net.Facet.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucene.Net.Grouping">
+      <HintPath>ucommerce\Apps\bin\Lucene.Net.Grouping.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucene.Net.Join">
+      <HintPath>ucommerce\Apps\bin\Lucene.Net.Join.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucene.Net.Queries">
+      <HintPath>ucommerce\Apps\bin\Lucene.Net.Queries.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucene.Net.QueryParser">
+      <HintPath>ucommerce\Apps\bin\Lucene.Net.QueryParser.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucene.Net.Sandbox">
+      <HintPath>ucommerce\Apps\bin\Lucene.Net.Sandbox.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
@@ -125,41 +151,56 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="Ucommerce, Version=9.0.0.20106, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Core.9.0.0.20106\lib\net45\Ucommerce.dll</HintPath>
+    <Reference Include="Ucommerce, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Ucommerce.Admin, Version=9.0.0.20106, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Core.9.0.0.20106\lib\net45\Ucommerce.Admin.dll</HintPath>
+    <Reference Include="Ucommerce.Admin, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.Admin.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Ucommerce.Api, Version=9.0.0.20106, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Core.9.0.0.20106\lib\net45\Ucommerce.Api.dll</HintPath>
+    <Reference Include="Ucommerce.Api, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.Api.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Ucommerce.Infrastructure, Version=9.0.0.20106, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Core.9.0.0.20106\lib\net45\Ucommerce.Infrastructure.dll</HintPath>
+    <Reference Include="Ucommerce.Infrastructure, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.Infrastructure.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Ucommerce.Installer, Version=9.0.0.20106, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Core.9.0.0.20106\lib\net45\Ucommerce.Installer.dll</HintPath>
+    <Reference Include="Ucommerce.Installer, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.Installer.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Ucommerce.NHibernate, Version=9.0.0.20106, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Core.9.0.0.20106\lib\net45\Ucommerce.NHibernate.dll</HintPath>
+    <Reference Include="Ucommerce.NHibernate, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.NHibernate.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Ucommerce.Pipelines, Version=9.0.0.20106, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Core.9.0.0.20106\lib\net45\Ucommerce.Pipelines.dll</HintPath>
+    <Reference Include="Ucommerce.Pipelines, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.Pipelines.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Ucommerce.Presentation, Version=9.0.0.20106, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Core.9.0.0.20106\lib\net45\Ucommerce.Presentation.dll</HintPath>
+    <Reference Include="Ucommerce.Presentation, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.Presentation.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Ucommerce.Search, Version=9.0.0.20106, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Core.9.0.0.20106\lib\net45\Ucommerce.Search.dll</HintPath>
+    <Reference Include="Ucommerce.Search, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.Search.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Ucommerce.SqlMultiReaderConnector, Version=9.0.0.20106, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Core.9.0.0.20106\lib\net45\Ucommerce.SqlMultiReaderConnector.dll</HintPath>
+    <Reference Include="Ucommerce.Search.Lucene">
+      <HintPath>ucommerce\Apps\bin\Ucommerce.Search.Lucene.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.SystemHttp, Version=9.0.0.20106, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Core.9.0.0.20106\lib\net45\Ucommerce.SystemHttp.dll</HintPath>
+    <Reference Include="Ucommerce.SqlMultiReaderConnector, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.SqlMultiReaderConnector.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Ucommerce.SystemWeb, Version=9.0.0.20106, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uCommerce.Core.9.0.0.20106\lib\net45\Ucommerce.SystemWeb.dll</HintPath>
+    <Reference Include="Ucommerce.SystemHttp, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.SystemHttp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ucommerce.SystemWeb, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.SystemWeb.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -167,6 +208,7 @@
     <Compile Include="Content\IntegrationTestContentService.cs" />
     <Compile Include="Content\IntegrationTestDomainService.cs" />
     <Compile Include="Content\IntegrationTestImageService.cs" />
+    <Compile Include="Content\JavascriptFactory.cs" />
     <Compile Include="Globalization\LanguageService.cs" />
     <Compile Include="Logging\ConsoleLoggingService.cs" />
     <Compile Include="Program.cs" />
@@ -179,6 +221,24 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="ucommerce\Apps\Configuration\Indexes\CategoriesIndex.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Apps\Configuration\Indexes\PriceGroupsIndex.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Apps\Configuration\Indexes\ProductCatalogGroupsIndex.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Apps\Configuration\Indexes\ProductCatalogsIndex.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Apps\Configuration\Indexes\ProductsIndex.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Apps\Configuration\Search.Lucene.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="ucommerce\Configuration\Components.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -188,7 +248,211 @@
     <None Include="ucommerce\Configuration\Custom.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="ucommerce\Configuration\DataTypes.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Configuration\Marketing.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Apps.GetInstalledAppManifests.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Apps.Install.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Apps.Uninstall.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Apps.Upload.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Catalogs.Category.Delete.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Catalogs.Category.Save.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Catalogs.Product.Delete.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Catalogs.Product.Save.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Catalogs.ProductCatalog.Delete.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Catalogs.ProductCatalog.Save.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Catalogs.ProductCatalogGroup.Delete.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Catalogs.ProductCatalogGroup.Save.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Catalogs.Variant.Delete.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Definitions.DataType.Delete.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Definitions.DataType.Save.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Definitions.Definition.Delete.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Definitions.Definition.Save.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Definitions.DefinitionField.Save.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Definitions.ProductDefinitionField.Delete.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Definitions.ProductDefinitionField.Save.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Globalization.Language.Delete.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Globalization.Language.Save.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Marketing.Campaign.Delete.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Marketing.Campaign.Save.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Marketing.CampaignItem.Delete.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Marketing.CampaignItem.Save.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Orders.Order.Save.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Settings.Country.Delete.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Settings.Currency.Delete.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Settings.EmailProfile.Delete.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Settings.EmailProfileInformation.Save.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Settings.EmailType.Delete.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Settings.OrderNumberSerie.Delete.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Settings.PaymentMethod.Delete.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Settings.PriceGroup.Delete.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Settings.PriceGroup.Save.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Settings.ProductRelationType.Delete.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Settings.Roles.SaveUser.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Settings.Roles.SaveUserGroup.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Admin\Settings.ShippingMethod.Delete.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Baskets.AddAddress.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Baskets.AddToBasket.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Baskets.Basket.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Baskets.Checkout.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Baskets.CreateBasket.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Baskets.CreateShipment.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Baskets.GetBasket.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Baskets.RemoveShipment.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Baskets.UpdateLineItem.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Catalogs.GetProduct.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Catalogs.ProductReview.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Catalogs.ProductReviewComment.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Catalogs.UpdateCurrencyExchangeRates.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Customers.CreateCustomer.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Customers.CreateMember.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Orders.Processing.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Orders.ToCancelled.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\Orders.ToCompletedOrder.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\System\Initialize.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Pipelines\UI\PageBuilder.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Configuration\Presenters.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Configuration\Search.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="ucommerce\Configuration\Settings\Settings.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Configuration\Shell.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Configuration\Shipping.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Configuration\Synchronization.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Configuration\XmlRenderings.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
