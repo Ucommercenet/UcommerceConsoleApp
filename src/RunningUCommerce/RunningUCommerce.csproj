@@ -221,22 +221,22 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="ucommerce\Apps\Configuration\Indexes\CategoriesIndex.config">
+    <None Include="ucommerce\Apps\Ucommerce.Search.Lucene\Configuration\Indexes\CategoriesIndex.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="ucommerce\Apps\Configuration\Indexes\PriceGroupsIndex.config">
+    <None Include="ucommerce\Apps\Ucommerce.Search.Lucene\Configuration\Indexes\PriceGroupsIndex.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="ucommerce\Apps\Configuration\Indexes\ProductCatalogGroupsIndex.config">
+    <None Include="ucommerce\Apps\Ucommerce.Search.Lucene\Configuration\Indexes\ProductCatalogGroupsIndex.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="ucommerce\Apps\Configuration\Indexes\ProductCatalogsIndex.config">
+    <None Include="ucommerce\Apps\Ucommerce.Search.Lucene\Configuration\Indexes\ProductCatalogsIndex.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="ucommerce\Apps\Configuration\Indexes\ProductsIndex.config">
+    <None Include="ucommerce\Apps\Ucommerce.Search.Lucene\Configuration\Indexes\ProductsIndex.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="ucommerce\Apps\Configuration\Search.Lucene.config">
+    <None Include="ucommerce\Apps\Ucommerce.Search.Lucene\Configuration\Search.Lucene.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="ucommerce\Configuration\Components.config">
@@ -457,5 +457,16 @@
     </None>
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\Lucene.Net.Analysis.Common.dll" />
+    <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\Lucene.Net.dll" />
+    <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\Lucene.Net.Facet.dll" />
+    <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\Lucene.Net.Grouping.dll" />
+    <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\Lucene.Net.Join.dll" />
+    <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\Lucene.Net.Queries.dll" />
+    <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\Lucene.Net.QueryParser.dll" />
+    <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\Lucene.Net.Sandbox.dll" />
+    <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\Ucommerce.Search.Lucene.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
