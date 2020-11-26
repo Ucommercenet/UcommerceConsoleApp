@@ -77,6 +77,9 @@
       <HintPath>..\packages\uCommerce.9.3.1.20275\lib\net45\J2N.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="log4net, Version=2.0.12.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.12\lib\net45\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Lucene.Net">
       <HintPath>ucommerce\Apps\bin\Lucene.Net.dll</HintPath>
     </Reference>
@@ -219,6 +222,9 @@
     <Compile Include="Security\UsernameService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="App.config" />
     <None Include="packages.config" />
     <None Include="ucommerce\Apps\Ucommerce.Search.Lucene\Configuration\Indexes\CategoriesIndex.config">

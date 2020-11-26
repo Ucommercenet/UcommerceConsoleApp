@@ -13,6 +13,8 @@ namespace RunningUCommerce
         static void Main(string[] args)
         {
             ObjectFactory.Instance.Resolve<IScratchIndexer>().Index();
+            Console.WriteLine("Done. Press any key to exit...");
+            Console.ReadLine();
         }
     }
 }

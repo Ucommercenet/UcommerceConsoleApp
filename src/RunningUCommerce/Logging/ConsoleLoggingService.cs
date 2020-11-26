@@ -8,20 +8,32 @@ namespace RunningUCommerce.Logging
 {
     public class ConsoleLoggingService : Ucommerce.Infrastructure.Logging.ILoggingService
     {
+        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
         public void Log<T>(string customMessage)
         {
-            Console.WriteLine(customMessage);
+            log.Info(customMessage);
         }
 
         public void Log<T>(Exception exception)
         {
-            Console.WriteLine(exception);
+            Exception exceptionToLog = exception;
+            while (exceptionToLog != null)
+            {
+                log.Error("{0}", exceptionToLog);
+                exceptionToLog = exceptionToLog.InnerException;
+            }
         }
 
         public void Log<T>(Exception exception, string customMessage)
         {
             Console.WriteLine(customMessage);
-            Console.WriteLine(exception);
+            Exception exceptionToLog = exception;
+            while (exceptionToLog != null)
+            {
+                log.Error("{0}", exceptionToLog);
+                exceptionToLog = exceptionToLog.InnerException;
+            }
         }
     }
 }
