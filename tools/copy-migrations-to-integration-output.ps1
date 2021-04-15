@@ -42,6 +42,9 @@ Get-ChildItem *.config -Recurse | ForEach-Object { (Get-Content $_) -replace '\<
 
 Pop-Location
 $_FileType= @("*.*dll")
-Get-ChildItem -recurse ("$Ucommercefolder\apps\Ucommerce.Search.Lucene\bin") -include ($_FileType) | move-Item -Destination ($integrationProjectBinDebug)
+Write-Host "$Ucommercefolder\apps\Ucommerce.Search.Lucene\bin"
+Write-Host "$integrationProjectBinDebug"
+
+Get-ChildItem -recurse ("$integrationProjectBinDebug\ucommerce\apps\Ucommerce.Search.Lucene\bin") -include ($_FileType) | Move-Item -Destination ($integrationProjectBinDebug)
 Write-Host "Done"
 exit 0
