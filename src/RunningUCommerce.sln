@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunningUCommerce", "RunningUCommerce\RunningUCommerce.csproj", "{AF0C601D-E391-4339-9EA0-AF01F84CA519}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{EE47EFE1-F9DA-4228-B389-5549585AAE80}"
+	ProjectSection(SolutionItems) = preProject
+		..\tools\copy-migrations-to-integration-output.ps1 = ..\tools\copy-migrations-to-integration-output.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
