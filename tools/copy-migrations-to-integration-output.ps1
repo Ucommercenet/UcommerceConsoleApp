@@ -45,6 +45,6 @@ $_FileType= @("*.*dll")
 Write-Host "$Ucommercefolder\apps\Ucommerce.Search.Lucene\bin"
 Write-Host "$integrationProjectBinDebug"
 
-Get-ChildItem -recurse ("$integrationProjectBinDebug\ucommerce\apps\Ucommerce.Search.Lucene\bin") -include ($_FileType) | Move-Item -Destination ($integrationProjectBinDebug)
+Get-ChildItem -recurse ("$integrationProjectBinDebug\ucommerce\apps\Ucommerce.Search.Lucene\bin") -include ($_FileType) | Move-Item -Destination ($integrationProjectBinDebug) -Force
 Write-Host "Done"
 exit 0
