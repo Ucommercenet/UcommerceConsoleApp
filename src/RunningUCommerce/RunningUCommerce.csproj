@@ -69,13 +69,11 @@
     <Reference Include="Iesi.Collections, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <HintPath>..\packages\Iesi.Collections.4.0.4\lib\net461\Iesi.Collections.dll</HintPath>
     </Reference>
-    <Reference Include="Infralution.Licensing, Version=4.7.1.0, Culture=neutral, PublicKeyToken=3e7e8e3744a5c13f">
-      <HintPath>..\packages\uCommerce.9.3.1.20275\lib\net45\Infralution.Licensing.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Infralution.Licensing, Version=4.7.1.0, Culture=neutral, PublicKeyToken=3e7e8e3744a5c13f, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.9.6.3.22094\lib\net45\Infralution.Licensing.dll</HintPath>
     </Reference>
-    <Reference Include="J2N, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f39447d697a969af">
-      <HintPath>..\packages\uCommerce.9.3.1.20275\lib\net45\J2N.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="J2N, Version=2.0.0.0, Culture=neutral, PublicKeyToken=f39447d697a969af, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.9.6.3.22094\lib\net45\J2N.dll</HintPath>
     </Reference>
     <Reference Include="log4net, Version=2.0.12.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <HintPath>..\packages\log4net.2.0.12\lib\net45\log4net.dll</HintPath>
@@ -154,56 +152,44 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="Ucommerce, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Ucommerce, Version=9.6.3.22094, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Core.9.6.3.22094\lib\net45\Ucommerce.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.Admin, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.Admin.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Ucommerce.Admin, Version=9.6.3.22094, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Core.9.6.3.22094\lib\net45\Ucommerce.Admin.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.Api, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.Api.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Ucommerce.Api, Version=9.6.3.22094, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Core.9.6.3.22094\lib\net45\Ucommerce.Api.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.Infrastructure, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.Infrastructure.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Ucommerce.Infrastructure, Version=9.6.3.22094, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Core.9.6.3.22094\lib\net45\Ucommerce.Infrastructure.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.Installer, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.Installer.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Ucommerce.Installer, Version=9.6.3.22094, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Core.9.6.3.22094\lib\net45\Ucommerce.Installer.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.NHibernate, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.NHibernate.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Ucommerce.NHibernate, Version=9.6.3.22094, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Core.9.6.3.22094\lib\net45\Ucommerce.NHibernate.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.Pipelines, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.Pipelines.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Ucommerce.Pipelines, Version=9.6.3.22094, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Core.9.6.3.22094\lib\net45\Ucommerce.Pipelines.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.Presentation, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.Presentation.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Ucommerce.Presentation, Version=9.6.3.22094, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Core.9.6.3.22094\lib\net45\Ucommerce.Presentation.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.Search, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.Search.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Ucommerce.Search, Version=9.6.3.22094, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Core.9.6.3.22094\lib\net45\Ucommerce.Search.dll</HintPath>
     </Reference>
     <Reference Include="Ucommerce.Search.Lucene">
       <HintPath>ucommerce\Apps\bin\Ucommerce.Search.Lucene.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.SqlMultiReaderConnector, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.SqlMultiReaderConnector.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Ucommerce.SqlMultiReaderConnector, Version=9.6.3.22094, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Core.9.6.3.22094\lib\net45\Ucommerce.SqlMultiReaderConnector.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.SystemHttp, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.SystemHttp.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Ucommerce.SystemHttp, Version=9.6.3.22094, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Core.9.6.3.22094\lib\net45\Ucommerce.SystemHttp.dll</HintPath>
     </Reference>
-    <Reference Include="Ucommerce.SystemWeb, Version=9.3.1.20275, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\uCommerce.Core.9.3.1.20275\lib\net45\Ucommerce.SystemWeb.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Ucommerce.SystemWeb, Version=9.6.3.22094, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\uCommerce.Core.9.6.3.22094\lib\net45\Ucommerce.SystemWeb.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -227,21 +213,6 @@
     </None>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="ucommerce\Apps\Ucommerce.Search.Lucene\Configuration\Indexes\CategoriesIndex.config">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="ucommerce\Apps\Ucommerce.Search.Lucene\Configuration\Indexes\PriceGroupsIndex.config">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="ucommerce\Apps\Ucommerce.Search.Lucene\Configuration\Indexes\ProductCatalogGroupsIndex.config">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="ucommerce\Apps\Ucommerce.Search.Lucene\Configuration\Indexes\ProductCatalogsIndex.config">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="ucommerce\Apps\Ucommerce.Search.Lucene\Configuration\Indexes\ProductsIndex.config">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="ucommerce\Apps\Ucommerce.Search.Lucene\Configuration\Search.Lucene.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -257,8 +228,32 @@
     <None Include="ucommerce\Configuration\DataTypes.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="ucommerce\Configuration\Indexes\CategoriesIndex.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Configuration\Indexes\DefaultMetaIndex.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Configuration\Indexes\PriceGroupsIndex.config" >
+		<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</None>
+	<None Include="ucommerce\Configuration\Indexes\ProductCatalogGroupsIndex.config" >
+		<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</None>
+    <None Include="ucommerce\Configuration\Indexes\ProductCatalogsIndex.config">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Configuration\Indexes\ProductsIndex.config">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="ucommerce\Configuration\Marketing.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Configuration\Settings\Settings.config">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Configuration\Settings\Settings.Umbraco7.config">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="ucommerce\Pipelines\Admin\Apps.GetInstalledAppManifests.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -389,6 +384,9 @@
     <None Include="ucommerce\Pipelines\Baskets.Basket.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="ucommerce\Pipelines\Baskets.Basket.Headless.config">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="ucommerce\Pipelines\Baskets.Checkout.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -425,6 +423,9 @@
     <None Include="ucommerce\Pipelines\Customers.CreateMember.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="ucommerce\Pipelines\Orders.GetOrder.config">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="ucommerce\Pipelines\Orders.Processing.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -446,9 +447,6 @@
     <None Include="ucommerce\Configuration\Search.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="ucommerce\Configuration\Settings\Settings.config">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="ucommerce\Configuration\Shell.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -464,6 +462,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\J2N.dll" />
     <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\Lucene.Net.Analysis.Common.dll" />
     <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\Lucene.Net.dll" />
     <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\Lucene.Net.Facet.dll" />
@@ -472,6 +471,10 @@
     <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\Lucene.Net.Queries.dll" />
     <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\Lucene.Net.QueryParser.dll" />
     <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\Lucene.Net.Sandbox.dll" />
+    <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\Microsoft.Extensions.Primitives.dll" />
+    <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\System.Buffers.dll" />
+    <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\System.Memory.dll" />
     <Content Include="ucommerce\Apps\Ucommerce.Search.Lucene\bin\Ucommerce.Search.Lucene.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
