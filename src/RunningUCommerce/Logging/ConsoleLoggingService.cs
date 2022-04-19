@@ -1,39 +1,48 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Ucommerce.Infrastructure.Logging;
+using Ucommerce.Infrastructure.Logging.Capturing;
 
 namespace RunningUCommerce.Logging
 {
-    public class ConsoleLoggingService : Ucommerce.Infrastructure.Logging.ILoggingService
+    public class ConsoleLoggingService : ILoggingService
     {
-        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-
-        public void Log<T>(string customMessage)
+        public void Debug<T>(string message)
         {
-            log.Info(customMessage);
+            Console.WriteLine(message);
         }
 
-        public void Log<T>(Exception exception)
+        public void Debug<T>(string messageTemplate, params object[] propertyValues)
         {
-            Exception exceptionToLog = exception;
-            while (exceptionToLog != null)
-            {
-                log.Error("{0}", exceptionToLog);
-                exceptionToLog = exceptionToLog.InnerException;
-            }
+            MessageTemplateParser.TryParse(messageTemplate, propertyValues, out var message);
+            Debug<T>(message);
         }
 
-        public void Log<T>(Exception exception, string customMessage)
+        public void Information<T>(string message)
         {
-            Console.WriteLine(customMessage);
-            Exception exceptionToLog = exception;
-            while (exceptionToLog != null)
-            {
-                log.Error("{0}", exceptionToLog);
-                exceptionToLog = exceptionToLog.InnerException;
-            }
+            Console.WriteLine(message);
+        }
+
+        public void Information<T>(string messageTemplate, params object[] propertyValues)
+        {
+            MessageTemplateParser.TryParse(messageTemplate, propertyValues, out var message);
+            Information<T>(message);
+        }
+
+        public void Error<T>(Exception exception)
+        {
+            Console.WriteLine(exception);
+        }
+
+        public void Error<T>(Exception exception, string message)
+        {
+            Console.WriteLine(message);
+            Console.WriteLine(exception);
+        }
+
+        public void Error<T>(Exception exception, string messageTemplate, params object[] propertyValues)
+        {
+            MessageTemplateParser.TryParse(messageTemplate, propertyValues, out var message);
+            Error<T>(exception, message);
         }
     }
 }
