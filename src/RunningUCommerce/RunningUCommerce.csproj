@@ -108,8 +108,9 @@
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="NHibernate, Version=5.2.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
-      <HintPath>..\packages\NHibernate.5.2.5\lib\net461\NHibernate.dll</HintPath>
+    <Reference Include="NHibernate, Version=5.4.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4">
+      <HintPath>..\packages/NHibernate.5.4.9/lib/net461/NHibernate.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="NHibernate.Caches.SysCache, Version=5.5.0.0, Culture=neutral, PublicKeyToken=6876f2ea66c9f443, processorArchitecture=MSIL">
       <HintPath>..\packages\NHibernate.Caches.SysCache.5.5.1\lib\net461\NHibernate.Caches.SysCache.dll</HintPath>
@@ -234,26 +235,26 @@
     <None Include="ucommerce\Configuration\Indexes\DefaultMetaIndex.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="ucommerce\Configuration\Indexes\PriceGroupsIndex.config" >
-		<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	</None>
-	<None Include="ucommerce\Configuration\Indexes\ProductCatalogGroupsIndex.config" >
-		<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	</None>
+    <None Include="ucommerce\Configuration\Indexes\PriceGroupsIndex.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ucommerce\Configuration\Indexes\ProductCatalogGroupsIndex.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="ucommerce\Configuration\Indexes\ProductCatalogsIndex.config">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="ucommerce\Configuration\Indexes\ProductsIndex.config">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="ucommerce\Configuration\Marketing.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="ucommerce\Configuration\Settings\Settings.config">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="ucommerce\Configuration\Settings\Settings.Umbraco7.config">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="ucommerce\Pipelines\Admin\Apps.GetInstalledAppManifests.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -385,7 +386,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="ucommerce\Pipelines\Baskets.Basket.Headless.config">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="ucommerce\Pipelines\Baskets.Checkout.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -424,7 +425,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="ucommerce\Pipelines\Orders.GetOrder.config">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="ucommerce\Pipelines\Orders.Processing.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
